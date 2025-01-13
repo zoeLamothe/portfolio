@@ -10,41 +10,36 @@ import Hobbies from './pages/Hobbies';
 import Benevolat from './pages/Benevolat';
 import Competitions from './pages/Competitions';
 import Navbar from './components/Navbar';
-import ProfileSection from './components/ProfileSection';
+import ProfileSection from './pages/ProfileSection';
 import './App.css';
 
 function App() {
   return (
     <Router>
       <div className="flex flex-col">
-        {/* Conteneur principal */}
         <div className="flex">
-          {/* Section de Profil à gauche */}
+
           <div className="w-2/5 p-8">
             <ProfileSection />
           </div>
 
-          {/* Contenu principal à droite */}
           <div className="w-3/5">
-            {/* Navbar en haut */}
             <div className="flex justify-start p-4 w-full bg-white shadow-lg">
               <Navbar />
             </div>
 
-            {/* Pages de contenu */}
             <div className="p-8">
               <Routes>
-                {/* La page d'accueil */}
                 <Route path="/" element={<Home />} />
-        <Route path="/cv" element={<CV />} />
-        <Route path="/education" element={<Education />} />
-        <Route path="/experience" element={<Experience />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/references" element={<References />} />
-        <Route path="/benevolat" element={<Benevolat />} />
-        <Route path="/hobbies" element={<Hobbies />} />
-        <Route path="/competitions" element={<Competitions />} />
+                <Route path="/cv" element={<CV />} />
+                <Route path="/education" element={<Education />} />
+                <Route path="/experience" element={<Experience />} />
+                <Route path="/projects" element={<Projects />} />
+                <Route path="/skills" element={<Skills />} />
+                <Route path="/references" element={<References />} />
+                <Route path="/benevolat" element={<Benevolat />} />
+                <Route path="/hobbies" element={<Hobbies />} />
+                <Route path="/competitions" element={<Competitions />} />
         
               </Routes>
             </div>

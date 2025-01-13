@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css'; 
+import './CSS/Home.css'; 
 
 function Home() {
   return (
@@ -22,9 +22,14 @@ function Home() {
         <h2>Explorez</h2>
         <div className="links-container">
           <a href="/cv" className="home-link">Mon CV</a>
-          <a href="/experiences" className="home-link">Expériences</a>
+          <a href="/education" className="home-link">Éducation</a>
+          <a href="/experience" className="home-link">Expériences</a>
           <a href="/projects" className="home-link">Projets</a>
+          <a href="/skills" className="home-link">Compétences</a>
+          <a href="/competitions" className="home-link">Compétitions Informatiques</a>
+          <a href="/benevolat" className="home-link">Bénévolat</a>
           <a href="/references" className="home-link">Références</a>
+          <a href="/hobbies" className="home-link">Loisirs</a>
         </div>
       </section>
     </div>

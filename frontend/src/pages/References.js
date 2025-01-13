@@ -1,5 +1,5 @@
 import React from 'react';
-import './CV.css';
+import './CSS/CV.css';
 import prod from './images/Productique.png';
 import udes from './images/udes.png';
 
@@ -14,7 +14,8 @@ function References() {
       </div>
       <div className="reference-item">
         <h3>Université de Sherbrooke</h3>
-        <img src={udes} alt="Université de Sherbrooke" className="reference-image" />
+        <img src={udes} alt="Université de Sherbrooke" className="reference-image udes-image" />
+
         <p>Michael Blondin (Professeur) | michael.blondin@usherbrooke.ca</p>
       </div>
     </div>

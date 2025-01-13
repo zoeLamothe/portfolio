@@ -4,7 +4,7 @@ import cs from './images/CSGAME.jfif';
 import hackfest from './images/Hackfest.jfif';  
 import nsec from './images/nsec.jfif'; 
 
-import './Competitions.css';  
+import './CSS/Competitions.css';  
 
 function Competitions() {
   return (

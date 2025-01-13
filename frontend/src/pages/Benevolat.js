@@ -1,5 +1,5 @@
 import React from 'react';
-import './Benevolat.css';  
+import './CSS/Benevolat.css';  
 import refuge from './images/refuge.png';
 import jdis from './images/comite.jfif'; 
 function Benevolat() {
@@ -26,7 +26,6 @@ function Benevolat() {
             <li>Conception d'une affiche publicitaire pour promouvoir les activités et services du refuge, en mettant l'accent sur une présentation professionnelle et impactante destinée à attirer un large public.</li>
           </ul>
           
-          {/* Image agrandie et centrée */}
           <div className="image-container">
             <img src={refuge} alt="Refuge" className="reference-image" />
           </div>

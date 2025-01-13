@@ -1,5 +1,5 @@
 import React from 'react';
-import './CV.css';  
+import './CSS/CV.css';  
 
 
 function Education() {

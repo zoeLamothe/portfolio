@@ -1,12 +1,12 @@
 import React from 'react';
-import './CV.css';  
+import './CSS/CV.css';  
 import projetVideo from './images/Projet.mp4';
 
 function Projects() {
   return (
-    <div>
+    
+        <div className="cv-container">
       <section>
-          <h2>Projets</h2>
           <h3>Projet de fin de baccalauréat - Simulation d’une mini-usine | Productique Québec | Été 2024</h3>
           <ul>
             <li>Modélisation et simulation d'une mini-usine pour optimiser la production avec AnyLogic.</li>

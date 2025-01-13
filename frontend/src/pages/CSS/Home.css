@@ -1,4 +1,4 @@
-/* Style général pour la page Home */
+
 .home-container {
     font-family: 'Roboto', sans-serif;
     color: #333;
@@ -9,7 +9,7 @@
     align-items: center;
   }
   
-  /* Section header */
+
   .home-header {
     background-color: #fff;
     padding: 60px 20px;
@@ -32,7 +32,7 @@
     margin-top: 10px;
   }
   
-  /* Section à propos de moi */
+  
   .home-intro {
     margin-top: 40px;
     text-align: center;
@@ -52,7 +52,7 @@
     line-height: 1.7;
   }
   
-  /* Section liens */
+
   .home-links {
     margin-top: 40px;
     text-align: center;
@@ -87,7 +87,7 @@
     transform: translateY(-3px);
   }
   
-  /* Responsive Design */
+
   @media (max-width: 768px) {
     .home-header h1 {
       font-size: 2rem;

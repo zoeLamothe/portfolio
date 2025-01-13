@@ -1,13 +1,11 @@
 import React from 'react';
-import profileImage from './1014.jpg'; // Assure-toi que ton image est dans le bon dossier.
+import profileImage from './images/1014.jpg'; 
 
 function ProfileSection() {
   return (
     <div className="flex flex-col items-center justify-start space-y-6 p-8 bg-gray-100 rounded-lg shadow-md">
-      {/* Image de profil */}
       <img src={profileImage} alt="Profile" className="w-37 h-37 rounded-full object-cover" />
 
-      {/* Informations personnelles */}
       <div className="text-center">
         <h2 className="text-3xl font-bold text-gray-800">Zoe Lamothe-Morin</h2>
         <p className="text-lg text-gray-600">Bachelière en Informatique</p>

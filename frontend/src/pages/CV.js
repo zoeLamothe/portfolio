@@ -1,5 +1,5 @@
 import React from 'react';
-import './CV.css';
+import './CSS/CV.css';
 
 function CV() {
   return (
@@ -9,7 +9,7 @@ function CV() {
         <p>Voici mon CV professionnel. Vous pouvez le visualiser directement ici ou le télécharger.</p>
         <div className="pdf-container">
           <embed
-            src="/CV-ZoéLamothe-Morin.pdf"  // Chemin relatif depuis le dossier public
+            src="/CV-ZoéLamothe-Morin.pdf" 
             type="application/pdf"
             width="100%" 
             height="600px"
