@@ -1,0 +1,109 @@
+/* Style général pour la page Home */
+.home-container {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Section header */
+  .home-header {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 900px;
+  }
+  
+  .home-header h1 {
+    font-size: 2.5rem;
+    color: #2d2d2d;
+    margin: 0;
+  }
+  
+  .home-header p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  /* Section à propos de moi */
+  .home-intro {
+    margin-top: 40px;
+    text-align: center;
+    max-width: 900px;
+    width: 100%;
+  }
+  
+  .home-intro h2 {
+    font-size: 2rem;
+    color: #2d2d2d;
+    margin-bottom: 20px;
+  }
+  
+  .home-intro p {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.7;
+  }
+  
+  /* Section liens */
+  .home-links {
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .home-links h2 {
+    font-size: 2rem;
+    color: #2d2d2d;
+    margin-bottom: 20px;
+  }
+  
+  .links-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .home-link {
+    background-color: #4574a0;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .home-link:hover {
+    background-color: #4574a0;
+    transform: translateY(-3px);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .home-header h1 {
+      font-size: 2rem;
+    }
+  
+    .home-header p {
+      font-size: 1rem;
+    }
+  
+    .home-intro h2, .home-links h2 {
+      font-size: 1.5rem;
+    }
+  
+    .home-link {
+      padding: 12px 24px;
+      font-size: 1rem;
+    }
+  }
+  

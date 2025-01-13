@@ -1,58 +1,27 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import './CV.css';
 
 function CV() {
-  const [hash, setHash] = useState('');
-
-  useEffect(() => {
-    // Met à jour l'état de la section à afficher en fonction du hash dans l'URL
-    setHash(window.location.hash);
-  }, []);
-
   return (
-    <div>
-      <h1>Mon CV</h1>
-
-      <div className="cv-sections">
-        {/* Section Éducation */}
-        {hash === "#education" && (
-          <div id="education">
-            <h2>Éducation</h2>
-            <p>Ton parcours éducatif ici...</p>
-          </div>
-        )}
-
-        {/* Section Expérience */}
-        {hash === "#experience" && (
-          <div id="experience">
-            <h2>Expériences</h2>
-            <p>Ton expérience professionnelle ici...</p>
-          </div>
-        )}
-
-        {/* Section Projets */}
-        {hash === "#projects" && (
-          <div id="projects">
-            <h2>Projets</h2>
-            <p>Projets réalisés ici...</p>
-          </div>
-        )}
-
-        {/* Section Compétences */}
-        {hash === "#skills" && (
-          <div id="skills">
-            <h2>Compétences</h2>
-            <p>Compétences techniques ici...</p>
-          </div>
-        )}
-
-        {/* Section Références */}
-        {hash === "#references" && (
-          <div id="references">
-            <h2>Références</h2>
-            <p>Références professionnelles ici...</p>
-          </div>
-        )}
-      </div>
+    <div className="cv-container">
+      <section>
+        <h2>Mon CV</h2>
+        <p>Voici mon CV professionnel. Vous pouvez le visualiser directement ici ou le télécharger.</p>
+        <div className="pdf-container">
+          <embed
+            src="/CV-ZoéLamothe-Morin.pdf"  // Chemin relatif depuis le dossier public
+            type="application/pdf"
+            width="100%" 
+            height="600px"
+            title="Mon CV"
+          />
+        </div>
+        <div className="download-link">
+        <p>Vous pouvez également télécharger mon CV en cliquant sur le lien ci-dessous :</p>
+          
+          <a href="/CV-ZoéLamothe-Morin.pdf" download="CV-ZoéLamothe-Morin.pdf">Télécharger mon CV</a>
+        </div>
+      </section>
     </div>
   );
 }

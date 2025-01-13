@@ -1,56 +1,180 @@
-/* CV.css */
-.navbar {
-    background-color: #333;
-    padding: 10px;
-  }
-  
-  .nav-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav-item {
-    display: inline-block;
-    position: relative;
-  }
-  
-  .nav-item a {
-    color: white;
-    padding: 10px 15px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .nav-item a:hover {
-    background-color: #575757;
-  }
-  
-  .dropdown {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #333;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-  .dropdown li {
-    display: block;
-  }
-  
-  .dropdown li a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-  }
-  
-  .dropdown li a:hover {
-    background-color: #575757;
-  }
-  
-  .nav-item:hover .dropdown {
-    display: block;
-  }
-  
+/* CV Section Styles */
+.cv-container {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cv-container h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.cv-container h3 {
+  font-size: 1.5em;
+  margin-top: 20px;
+  color: #2980b9;
+}
+
+.cv-container ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.cv-container ul li {
+  margin: 5px 0;
+}
+
+.cv-container ul li span {
+  font-weight: bold;
+}
+
+.cv-container section {
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ecf0f1;
+}
+
+.cv-container section:last-child {
+  border-bottom: none;
+}
+
+.cv-container p {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+.cv-container .highlight {
+  font-weight: bold;
+  color: #16a085;
+}
+
+.cv-container .contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.cv-container .contact-info li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.cv-container .contact-info li span {
+  font-weight: normal;
+  color: #7f8c8d;
+}
+
+.cv-container .competitions-list {
+  margin-top: 10px;
+}
+
+.cv-container .competitions-list li {
+  background-color: #f4f6f7;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+}
+
+.cv-container .competitions-list li:hover {
+  background-color: #e1e8e8;
+}
+
+.cv-container .skills-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.cv-container .skills-list li {
+  background-color: #ecf0f1;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cv-container .skills-list li:hover {
+  background-color: #bdc3c7;
+}
+
+.references-container {
+  margin: 20px;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  text-align: center; /* Centre le titre */
+}
+
+.reference-item {
+  display: flex;
+  flex-direction: column; /* Aligne les éléments verticalement */
+  align-items: center;   /* Centre les éléments dans chaque conteneur */
+  margin-bottom: 20px;   /* Espacement entre les références */
+  padding: 15px;         /* Espacement interne */
+  border: 1px solid #ccc; /* Bordure du conteneur */
+  border-radius: 8px;    /* Coins légèrement arrondis */
+  background-color: #f9f9f9; /* Fond clair */
+}
+
+.reference-image {
+  width: 120px; /* Ajuste la taille de l'image */
+  height: auto; /* Conserve le ratio original */
+  margin: 10px 0;
+}
+
+h3 {
+  color: #555;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+p {
+  color: #666;
+  font-size: 1em;
+  text-align: center;
+}
+
+.project-video {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 40px; /* Ajout d'espace après la vidéo */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.cv-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.pdf-container {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.download-link {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.download-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.download-link a:hover {
+  text-decoration: underline;
+}

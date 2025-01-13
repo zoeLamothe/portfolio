@@ -1,0 +1,38 @@
+.competitions-container {
+    padding: 20px;
+  }
+  
+  .first-two-competitions {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .competition-item {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 48%;  /* Ajoute cette règle pour contrôler la taille de chaque élément */
+  }
+  
+  .competition-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .competition-item h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 15px;
+  }
+  
+  .competition-item p {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+  
