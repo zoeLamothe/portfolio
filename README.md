@@ -10,23 +10,27 @@ Suivez ces étapes pour exécuter le portfolio en local :
 
 ### 1. Cloner le dépôt
 Clonez ce dépôt sur votre machine locale à l'aide de la commande suivante :
-
+```bash
 git clone https://github.com/zoeLamothe/portfolio.git
+```
 
 ### 2. Naviguer vers le dossier frontend
 Déplacez-vous dans le dossier contenant le code frontend :
-
+```bash
 cd portfolio/frontend
+```
 
 ### 3. Installer les dépendances
 Installez toutes les dépendances nécessaires en exécutant :
-
+```bash
 npm install
+```
 
 ### 4. Lancer l'application
 Démarrez le serveur de développement en exécutant :
-
+```bash
 npm start
+```
 
 ### 5. Accéder au site
 
