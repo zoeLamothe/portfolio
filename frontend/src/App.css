@@ -1,7 +1,9 @@
 body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
+  background-color: #c5e0d9; /* Couleur de fond */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Garde l'image fixe lors du défilement */
+  background-position: center;
 }
 
 .flex {

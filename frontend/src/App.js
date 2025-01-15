@@ -24,7 +24,7 @@ function App() {
           </div>
 
           <div className="w-3/5">
-            <div className="flex justify-start p-4 w-full bg-white shadow-lg">
+            <div className="flex justify-start w-full">
               <Navbar />
             </div>
 
