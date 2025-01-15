@@ -49,7 +49,9 @@ frontend/public : Fichiers statiques comme le index.html et les fichiers de conf
 Ce portfolio est construit avec les technologies suivantes :
 
 React : Une bibliothèque JavaScript pour construire des interfaces utilisateur.
+
 CSS : Pour styliser le site.
+
 Node.js : Pour gérer le serveur de développement et exécuter le projet.
 
 ### 📞 Contact
