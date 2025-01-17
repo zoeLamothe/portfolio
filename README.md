@@ -35,6 +35,10 @@ npm start
 ### 5. Accéder au site
 
 Ouvrez votre navigateur et accédez à l'adresse suivante :
+```bash
+localhost:3000
+```
+Un navigateur devrait s'ouvrir par lui-même.
 
 ### 📂 Structure du projet
 Voici une brève description des dossiers et fichiers principaux :
